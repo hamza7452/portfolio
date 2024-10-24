@@ -15,3 +15,10 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+//STL (standard template library)
+
+//list
+//list is a collection of items that you can easily add or remove from.
+//it is just like a node
+
+//map

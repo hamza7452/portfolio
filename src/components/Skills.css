@@ -1,0 +1,97 @@
+.projects {
+    color: #fff;
+    position: relative;
+    padding: 20px 80px;
+    margin: 1% 4%;
+    z-index: 1;
+    background: linear-gradient(to right, #170550, #5A2D8A);
+    border-radius: 15px;
+}
+
+.projects-upper {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 2px solid #f86f03;
+}
+
+.pp {
+    color: #f86f03;
+}
+
+.projects-lower {
+    padding-top: 120px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    position: relative;
+    height: 250px;
+    width: 250px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 10px;
+    color: #31065A;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Align content vertically */
+    align-items: center; /* Align content horizontally */
+    text-align: center; /* Center the text */
+}
+
+.card span {
+    width: 0;
+    height: 100%;
+    background-color: #f86f03;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    transition: width 0.5s;
+}
+
+.card:hover span {
+    width: 100%;
+}
+
+.card:hover #pro {
+    color: #ffffff;
+}
+
+.card:hover #one {
+    color: #ffffff;
+}
+
+.card:hover #two {
+    color: #ffffff;
+}
+
+#pro {
+    color: #f86f03;
+    font-size: 70px;
+    padding: 0; /* Remove extra padding */
+    margin-bottom: 10px; /* Space between icon and heading */
+    z-index: 1;
+    position: relative;
+}
+
+#one {
+    z-index: 1;
+    position: relative;
+    font-size: 24px; /* Adjust font size */
+    margin-bottom: 10px; /* Space between heading and description */
+}
+
+#two {
+    z-index: 1;
+    position: relative;
+    padding: 0 15px; /* Add some padding for spacing */
+    font-size: 16px; /* Adjust font size */
+}
